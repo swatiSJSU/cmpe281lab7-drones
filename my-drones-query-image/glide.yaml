@@ -1,0 +1,12 @@
+package: github.com/cloudnativego/drones-query
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/cloudnativego/cf-tools
+- package: github.com/cloudnativego/cfmgo
+- package: github.com/cloudnativego/drones-common
+- package: github.com/cloudnativego/drones-events
+  subpackages:
+  - mongo
+- package: github.com/codegangsta/negroni
+- package: github.com/gorilla/mux
+- package: github.com/unrolled/render
